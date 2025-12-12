@@ -10,7 +10,7 @@ authors:
     given-names: "Leon"
     affiliation: GESIS - Leibniz Institute for the Social Sciences
 date-released: "2025-12-12"
-version: "1.0.2"
+version: "1.0.1"
 repository-code: 'https://github.com/SiyuZ-00/DQ_Tool_SubData'
 keywords:
   - Perspectivism
