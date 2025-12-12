@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this tool, please cite it as below."
+title: "SubData - A Python Library for Evaluating LLM
+Perspective-alignment on Targeted Hate Speech Datasets"
+authors:
+  - family-names: "Zhang"
+    given-names: "Siyu"
+    affiliation: GESIS - Leibniz Institute for the Social Sciences
+  - family-names: "Fröhling"
+    given-names: "Leon"
+    affiliation: GESIS - Leibniz Institute for the Social Sciences
+date-released: "2025-12-12"
+version: "1.0.2"
+repository-code: 'https://github.com/SiyuZ-00/DQ_Tool_SubData'
+keywords:
+  - Perspectivism
+  - Alignment
+  - Persona Prompting
+  - Hate Speech Detection
+  - NLP
+  - Datasets
+license: "MIT"
