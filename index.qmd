@@ -6,7 +6,6 @@ author:
   - name: "Leon Fröhling" 
 image: images/tool_icon.png
 image-alt: An icon.
-date: "`r format(Sys.Date(), '%B %d, %Y')`"
 format:
   html: default
   pdf: default
@@ -132,7 +131,7 @@ demonstrate the use for which it was originally developed by showing how
 to integrate `SubData` into a theory-driven hypothesis testing workflow
 for evaluating the perspective-alignment of LLMs. 
 
-# 2. Setup I - The `SubData` Library {#setup1}
+# 2. Setup I - The SubData Library {#setup1}
 
 Evaluating alignment for subjective classification tasks remains
 challenging. For survey response prediction, researchers can compare
@@ -633,7 +632,7 @@ sd.show_taxonomy(
 )
 ``` 
 
-## 4.2 Use Case: Theory-Driven Hypothesis Testing for LLM Perspective-Alignment {#tool-application}
+## 4.2 Use Case: Theory-Driven Hypothesis Testing for LLM Perspective-Alignment
 
 Here, we discuss a concrete use case to show the application for which `SubData` was originally developed. As known from the literature [@Feng2023], LLMs pretrained on biased training data propagate these biases into downstream tasks such as hate speech detection. One the one hand, these biases can - if explicitly controlled for - be used to steer LLMs used as classification models to take on different perspectives. If done carefully, this could, for example, allow for a more inclusive social media experience through a more balanced treatment of different preferences and sensitivities regarding hateful content. On the other hand, however, if these biases go unnoticed, are not explicitly being controlled for, or are even undesired, then there is a risk for them to impact classification outcomes in unpredictable and detremental ways. 
 
